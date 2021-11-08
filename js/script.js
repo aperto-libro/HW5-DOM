@@ -1,10 +1,10 @@
-let buttonLogin = document.getElementById('button');
+let buttonLogin = document.querySelector('#button');
 
 buttonLogin.addEventListener('click', addUserDataToLocalStorage);
 
 function addUserDataToLocalStorage() {
-  let userNameInput = document.getElementById('username').value;
-  let userPasswordInput = document.getElementById('pass').value;
+  let userNameInput = document.querySelector('#username').value;
+  let userPasswordInput = document.querySelector('#pass').value;
 
   localStorage.setItem('username', userNameInput);
   localStorage.setItem('password', userPasswordInput);
