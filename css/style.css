@@ -25,7 +25,7 @@ body {
 
 .loginForm {
   width: 400px;
-  height: 330px;
+  height: 310px;
 
   margin: 0 auto;
   padding: 40px 40px;
@@ -51,6 +51,7 @@ body {
 }
 
 .input {
+  font-style: italic;
   background-color: rgb(241, 239, 239);
 }
 
@@ -62,4 +63,19 @@ body {
 .button:hover,
 .button:focus {
   background-color: rgb(16, 138, 16);
+}
+
+.data {
+  margin: 0 auto;
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  color: rgb(16, 138, 16);
+  background-color: rgb(177, 177, 170);
+  box-shadow: 0px 10px 13px -7px #000000, 0px 5px 17px 0px rgba(0, 0, 0, 0);
+}
+
+.spanText {
+  color: rgb(2, 70, 2);
+  font-weight: 700;
 }

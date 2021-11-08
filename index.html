@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
-    <form class="loginForm">
+    <form class="loginForm" id="loginForm">
       <input
         type="text"
         id="username"
@@ -16,6 +17,7 @@
         placeholder="username"
         required
       />
+
       <input
         type="pass"
         id="pass"
@@ -23,12 +25,13 @@
         placeholder="password"
         required
       />
-      <button type="submit" id="button" class="button">LOGIN</button>
-      <p class="text">
+
+      <button type="button" id="button" class="button">LOGIN</button>
+
+      <p class="text" id="text">
         Not registered?
         <a href="#" class="form-link">Create an account</a>
       </p>
     </form>
-    <script src="./js/script.js" defer></script>
   </body>
 </html>
